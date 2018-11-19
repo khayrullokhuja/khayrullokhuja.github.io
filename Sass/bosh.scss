@@ -1,0 +1,26 @@
+$asosiy-rang:#00887a;
+
+	html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.cf::after{
+	content:" ";
+	display: table;
+	clear: both;
+}
